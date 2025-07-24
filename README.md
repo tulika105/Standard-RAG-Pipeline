@@ -1,5 +1,5 @@
 # Standard-RAG-Pipeline
-This notebook demonstrates a complete Retrieval-Augmented Generation pipeline workflow, from data ingestion and chunking, through embedding and storage, to context retrieval and answer generation using a large language model. Each cell builds upon the previous, collectively enabling automated, accurate, and context-aware question answering.
+This repository implements a standard Retrieval-Augmented Generation (RAG) pipeline for automated question answering using PDF documents as the data source. The workflow involves loading and parsing PDF, splitting the text into meaningful chunks, generating semantic embeddings with transformer models, and storing these in a ChromaDB vector database for efficient retrieval. Relevant document sections are retrieved in response to user queries and supplied to a large language model (Groq) via custom prompts to produce accurate, context-aware answers. The notebook provides clear cell-by-cell explanations, making it a comprehensive resource for building and understanding RAG workflows.
 
 ## 1. **Install Dependencies**
  
