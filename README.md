@@ -1,4 +1,7 @@
 # Standard-RAG-Pipeline
+<img width="1840" height="531" alt="Screenshot 2025-08-15 170702" src="https://github.com/user-attachments/assets/21c642a5-e886-42a6-a3f1-590e4da37b9a" />
+
+
 This repository implements a standard Retrieval-Augmented Generation (RAG) pipeline for automated question answering using PDF documents as the data source. The workflow involves loading and parsing PDF, splitting the text into meaningful chunks, generating semantic embeddings with transformer models, and storing these in a ChromaDB vector database for efficient retrieval. Relevant document sections are retrieved in response to user queries and supplied to a large language model (Groq) via custom prompts to produce accurate, context-aware answers. The notebook provides clear cell-by-cell explanations, making it a comprehensive resource for building and understanding RAG workflows.
 
 ## 1. **Install Dependencies**
